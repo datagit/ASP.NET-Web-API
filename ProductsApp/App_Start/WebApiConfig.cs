@@ -13,6 +13,7 @@ namespace ProductsApp
 
             // Web API routes
             config.MapHttpAttributeRoutes();
+            // I commented
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
